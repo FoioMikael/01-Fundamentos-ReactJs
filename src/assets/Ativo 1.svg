@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.79 179.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2daaca;
+        opacity: .9;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: LatinWide, 'Wide Latin';
+        font-size: 143.87px;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #73b8cb;
+        opacity: .7;
+      }
+
+      .cls-3 {
+        fill: #498093;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <path class="cls-3" d="M180.16,88.24l-26.84-54.38C144.38-5.93,88.54-9.63,56.56,25.37l-38.03,48.59c-37.02,38.87,1.24,93.15,39.49,91.3l74.59-4.78c35.29,2.27,60.29-54.75,47.55-72.25Z"/>
+    <path class="cls-2" d="M172.55,99.9l-5.34-49.31c-4-41.5-47.07-61.65-81.67-44.41L28.41,41.62c-31.72,16.71-44.3,78.09,1.85,99.91l56.47,25.82c30.45,19.34,96.1,8.61,85.81-67.45Z"/>
+    <path class="cls-1" d="M157.97,138.6l22.48-37.98C202.83,49.97,150.12.71,109.83,7.34l-39.5,1.85C17.79,9.47-6.58,83.8,17.2,110.43l31.14,41.89c46.46,37.26,78.79,32.15,109.64-13.71Z"/>
+    <text class="cls-4" transform="translate(28.63 138.93) scale(.64 1.07)"><tspan x="0" y="0">D</tspan></text>
+  </g>
+</svg>
