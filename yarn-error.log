@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add phosphor-react
+
+PATH: 
+  C:\product\11.2.0\client_1\bin;D:\Cursos\OracleDB\app\oracle\client_oracle11;C:\Program Files (x86)\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;D:\app\Milaell\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\dotnet\;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.382-1\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.382-1\jre\bin;%JAVA_HOME%\bin;C:\Users\Milaell\maven\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Milaell\AppData\Local\Microsoft\WindowsApps;C:\Users\Milaell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Milaell\AppData\Roaming\npm;C:\Users\Milaell\AppData\Local\Yarn\bin;C:\Users\Milaell\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Milaell\Desktop\rocketseat\Aula01Vit\01-Fundamentos-ReactJs\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "01-fundamentos-reactjs",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@phosphor-icons/react": "^2.0.15",
+      "phosphor-react": "^1.4.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.55",
+      "@types/react-dom": "^18.2.19",
+      "@vitejs/plugin-react": "^4.2.1",
+      "eslint": "^8.56.0",
+      "eslint-plugin-react": "^7.33.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.5",
+      "vite": "^5.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
