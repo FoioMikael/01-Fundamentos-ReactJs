@@ -2,7 +2,7 @@
 import { ThumbsUp, TrashSimple } from 'phosphor-react'
 import styles from './Comment.module.css'
 
-export function Comment(){
+export function Comment(props){
     return(
         <div className={styles.comment}>
             <img src="https://github.com/foiomikael.png" alt=''/>
@@ -19,7 +19,7 @@ export function Comment(){
                        <TrashSimple size={24} />
                     </button>
                 </header>
-                <p>Muito bom continue assim</p>
+                <p>{props.content}</p>
             </div>
 
             <footer className={styles.commentFooter}>
