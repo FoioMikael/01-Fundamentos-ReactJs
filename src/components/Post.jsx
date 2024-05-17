@@ -33,9 +33,18 @@ export function Post(props) {
         setComments([...comments, newCommentText])
         setNewCommentText('')
     }
-    function handleNewCommentChange(){
+    function handleNewCommentChange() {
         setNewCommentText(event.target.value)
     }
+
+    function deleteComment(comentsToDelete) {
+        const commentWithoutDeletedOne = comments.fillter(comment =>{
+            return   comment != comentsToDelete;
+        })
+
+        setComments(commentWithoutDeletedOne);
+    }
+
     return (
         <article className={styles.post} >
             <header>
@@ -68,7 +77,7 @@ export function Post(props) {
                 <strong>Deixe seu feedback</strong>
                 <textarea
                     value={newCommentText}
-                    name = "comment"
+                    name="comment"
                     placeholder="Deixe um comentário"
                     onChange={handleNewCommentChange}
                 />
@@ -78,7 +87,14 @@ export function Post(props) {
             </form>
             <div className={styles.commentList}>
                 {comments.map(comment => {
-                    return <Comment key={comment} content={comment}/>
+                    return (
+                        <Comment 
+                            key={comment} 
+                            content={comment} 
+                            deleteComment={deleteComment} 
+                        />
+                    )
+
                 })}
             </div>
         </article>
